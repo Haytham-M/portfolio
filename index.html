@@ -22,36 +22,50 @@
         <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     </head>
 <body>
+
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn">
+    <i class="fa fa-arrow-up"></i>
+    </div>
+
+    <!--=======Light/Dark theme button=======-->
+    <div class="theme-btn">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun" style="color: white;"></i>
+    </div>
+
     <!-- start navbar -->
     <header>
         <div class="cont">
-        <div id="brand"><a href="index.html">Haytham <span>Seoudy</span></a></div>
-        <nav>
-          <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-          <ul class="mobile-menu">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+            <div id="brand"><a href="index.html">Haytham <span>Seoudy</span></a></div>
+            <nav>
+            <ul class="nav-items">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+            <!-- ==hamburger icon== -->
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
         </div>
     </header>
       <!-- end navbar -->
+
     <!-- start home page -->
     <section class="home" id="home">
         <div class="cont">
@@ -64,25 +78,32 @@
                 </div>
                 <div class="socials">
                     <a href="https://www.instagram.com/haytham_seoudy/" target="_blank"><span class="icon"><i class="bx bxl-instagram"></i></span></a>
-                    <a href="https://twitter.com/haytham_seoudy target="_blank"><span class="icon"><i class="bx bxl-twitter"></i></span></a>
+                    <a href="https://twitter.com/haytham_seoudy" target="_blank"><span class="icon"><i class="bx bxl-twitter"></i></span></a>
                     <a href="https://github.com/Haytham-M" target="_blank"><span class="icon"><i class="bx bxl-github"></i></span></a>
                     <a href="https://www.linkedin.com/in/haytham-seoudy/" target="_blank"><span class="icon"><i class="bx bxl-linkedin"></i></span></a>
                     <a href="https://www.facebook.com/Haitham.Soudy" target="_blank"><span class="icon"><i class="bx bxl-facebook"></i></span></a>
                     <a href="https://www.youtube.com/@haythamseoudy" target="_blank"><span class="icon"><i class="bx bxl-youtube"></i></span></a>
                 </div>
             </div>
-            <div class="image">
-                <img src="imgs/my-pic.png">
-            </div>
+            <div class="image"><img src="imgs/my-pic.png"></div>
         </div>
     </section>
     <!-- end home -->
+
     <!-- start about -->
     <section class="about" id="about">
         <h2 class="heading">About</h2>
         <div class="cont">
             <div class="image">
                 <img src="imgs/about.png">
+                <div class="socials">
+                    <a href="https://www.instagram.com/haytham_seoudy/" target="_blank"><span class="icon"><i class="bx bxl-instagram"></i></span></a>
+                    <a href="https://twitter.com/haytham_seoudy" target="_blank"><span class="icon"><i class="bx bxl-twitter"></i></span></a>
+                    <a href="https://github.com/Haytham-M" target="_blank"><span class="icon"><i class="bx bxl-github"></i></span></a>
+                    <a href="https://www.linkedin.com/in/haytham-seoudy/" target="_blank"><span class="icon"><i class="bx bxl-linkedin"></i></span></a>
+                    <a href="https://www.facebook.com/Haitham.Soudy" target="_blank"><span class="icon"><i class="bx bxl-facebook"></i></span></a>
+                    <a href="https://www.youtube.com/@haythamseoudy" target="_blank"><span class="icon"><i class="bx bxl-youtube"></i></span></a>
+                </div>
             </div>
             <div class="info">
                 <h3>information</h3>
@@ -95,6 +116,7 @@
         </div>
     </section>
     <!-- end about -->
+
     <!-- start services -->
     <section class="services" id="services">
         <h2 class="heading">Services</h2>
@@ -117,11 +139,12 @@
         </div>
     </section>
     <!-- end services -->
+
     <!-- start skills -->
     <section class="skills" id="skills">
         <h2 ><div class="heading">Skills</div></h2>
         <div class="cont">
-            <div class="image"><img src="imgs/skills.png"></div>
+            <div class="image"><img src="imgs/skills.png"> </div>
             <div class="data">
                 <div class="info">
                     <h3>HTML</h3>
@@ -163,6 +186,7 @@
         </div>
     </section>
     <!-- end skills section -->
+
     <!--start portfolio section -->
     <section id="portfolio" class="portfolio">
         <h2 ><div class="heading">Portfolio</div></h2>
@@ -188,6 +212,7 @@
         </div>
     </section>
     <!-- end portfolio -->
+
     <!-- start Contact -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact</h2>
@@ -201,17 +226,18 @@
                     <button type="submit">Send</button>
                 </form>
             </div>
-            <div class="image">
-                <img src="imgs/contact.png">
-            </div>
+            <div class="image"><img src="imgs/contact.png"></div>
         </div>
     </section>
     <!-- end contact -->
+
       <!-- Footer -->
   <footer>
     <p>@copyright 2023 <span>Haytham Seoudy.</span></p>
     </footer>
     <!-- end footer -->
+    
+    <!-- typing script -->
     <script src="js/index.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
